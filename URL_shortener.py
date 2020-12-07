@@ -12,7 +12,6 @@ var2 = StringVar()
 ent1 = Entry(root,textvariable=var1,font=('arial',10),bg='powder blue',bd=2,width=38)
 ent1.place(x=115,y=45)
 
-
 def short_link():
     global shorten_URL
     var = var1.get()
@@ -27,8 +26,6 @@ def no_click():
     lab3 = Label(root,text = no_of_click,font=('arial',10))
     lab3.place(x=350,y=115)
     
-
-
 lab2 = Label(root,text='Short URL',font=('arial',10))
 lab2.place(x=0,y=75)
 ent2 = Entry(root,font=('arial',10),textvariable=var2,bg='powder blue',bd=2,width=38)
